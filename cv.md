@@ -2,7 +2,7 @@
 
 ---
 
-## Contacts: ##
+## Contacts ##
 
 * **Location:** Crimea, Feodosia
 * **Phone:** +7 (978) 785-89-05
@@ -14,6 +14,7 @@
 ## About Me ##
 
 Hello! I am studying hard to work as a junior Front-End developer.
+
 ---
 
 ## Skills ##
@@ -31,6 +32,6 @@ Hello! I am studying hard to work as a junior Front-End developer.
 
 ---
 
-## Languages: ##
+## Languages ##
 
 **English level:** A2 (Pre-Intermediate)
