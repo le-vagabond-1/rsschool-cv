@@ -1,63 +1,100 @@
-@font-face {
-    font-family: fa;
-    src: url();
+* {
+  box-sizing: border-box;
 }
 
-* {
-    box-sizing: border-box; 
-  }
+:root {
+  --titleColor: rgb(144, 151, 130);
+  --secondColor: rgb(214, 221, 200);
+}
 
-  body {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
- 
-  header, footer,  nav {
-    padding: 1em;
-  }
-  header, footer {
-    background: yellowgreen;
-    height: 20vh;
-    width: 100%;
-  }
+h1,
+h3 {
+  margin: 5px auto;
+}
+
+header,
+footer {
+  background: var(--secondColor);
+  width: 100%;
+}
 
 .main {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    flex-direction: row;
-   // background-color: #dfc9c0;
-    width: 100%;
-    margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+  margin: 0 auto;
 }
 
-  .section {
-    padding: 20px;
-    width: 40%;
-    border-top: solid black 2px;
-    margin: 5%;
- }
+.section {
+  padding: 20px;
+  width: 40%;
+  border-top: solid black 1px;
+  margin: 1% 5%;
+}
 
- .section-title
- {
-     color:chartreuse;
-     text-align: center;
- }
+.section-title {
+  color: var(--titleColor);
+  text-align: center;
+}
 
- .nav-list
- {
+.section-text {
+  text-align: justify;
+}
+
+.section-link {
+    text-align: justify;
+
+  text-decoration: none;
+}
+
+.section-link:hover {
+  font-weight: bold;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-item {
+
+  padding: 20px;
+  list-style: none;
+}
+
+.nav-item a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.nav-item a:hover {
+  color: black;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer{
     display: flex;
-    justify-content: center;
- }
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px 0;
 
- .nav-item
- {
-     padding: 20px;
-     list-style: none;
- }
+}
+
