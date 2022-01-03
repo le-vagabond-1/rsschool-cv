@@ -26,6 +26,17 @@ Hello! I am studying hard to work as a junior Front-End developer.
 
 ---
 
+## Code examples ##
+
+```
+function multiply(a, b){
+  s = a * b;
+  return s;
+}
+```
+
+---
+
 ## Education ##
 
 **University:** Sevastopol National Technical University
